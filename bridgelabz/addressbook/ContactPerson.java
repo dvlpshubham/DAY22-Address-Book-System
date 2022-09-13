@@ -9,8 +9,7 @@ public class ContactPerson {
     private String email;
     private int zip;
     private double phoneNumber;
-
-
+    
     public String getFirstName() {
         return firstName;
     }
