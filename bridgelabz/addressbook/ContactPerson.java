@@ -7,7 +7,8 @@ public class ContactPerson {
     private String city;
     private String state;
     private String email;
-    private int zip, phoneNumber;
+    private int zip;
+    private double phoneNumber;
 
 
     public String getFirstName() {
@@ -66,7 +67,7 @@ public class ContactPerson {
         this.zip = zip;
     }
 
-    public int getPhoneNumber() {
+    public double getPhoneNumber() {
         return phoneNumber;
     }
 
@@ -74,7 +75,7 @@ public class ContactPerson {
         this.phoneNumber = phoneNumber;
     }
 
-    public ContactPerson(String firstName, String lastName, String address, String city, String state, String email, int zip, int phoneNumber) {
+    public ContactPerson(String firstName, String lastName, String address, String city, String state, String email, int zip, double phoneNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -84,7 +85,6 @@ public class ContactPerson {
         this.zip = zip;
         this.phoneNumber = phoneNumber;
     }
-
     @Override
     public String toString() {
         return "ContactPerson{" +
