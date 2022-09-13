@@ -65,7 +65,7 @@ public class ContactPerson {
     public void setZip(int zip) {
         this.zip = zip;
     }
-
+    
     public double getPhoneNumber() {
         return phoneNumber;
     }
